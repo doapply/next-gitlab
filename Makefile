@@ -3,4 +3,4 @@ PUBLICDIR=$(BASEDIR)/public
 PORT=8000
 
 serve:
-	cd $(PUBLICDIR); python -m SimpleHTTPServer ${PORT}
+	cd $(PUBLICDIR); python3 -m http.server ${PORT}
